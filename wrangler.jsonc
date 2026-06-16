@@ -5,6 +5,12 @@
 		"global_fetch_strictly_public"
 	],
 	"name": "jelly-ball-2026",
+	"kv_namespaces": [
+    {
+      "binding": "SESSION",
+      "id": "jelly-ball-2026-session"
+    }
+  ],
 	"main": "@astrojs/cloudflare/entrypoints/server",
 	"assets": {
 		"directory": "./dist",
